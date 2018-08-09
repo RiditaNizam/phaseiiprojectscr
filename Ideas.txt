@@ -1,0 +1,56 @@
+- Model after the following website
+    - oars.com
+
+- Colors
+    - dark gray (#42413D)
+    - medium gray (#959492)
+    - light gray (#B2AFAC)
+    - yellow (#FFCE2B)
+    
+- Title of website
+    - On the Cuff
+    - NYC on the Cuff
+
+Categories
+Business & Professional- Brookfield Place
+Health & Wellness- Food
+Fashion & Beauty- Haircuts
+Sports & Fitness:
+    - Rooftop pool
+    - Biking
+    - Tennis
+    - Kayaking
+Auto, Boat & Air
+Community & Culture
+Family & Education
+Film, Media & Entertainment
+Government & Politics
+Hobbies & Special Interest
+Home & Lifestyle
+Performing & Visual Arts
+Religion & Spirituality
+Science & Technology
+Seasonal & Holiday
+Travel & Outdoor
+Uncategorized:
+- Street fairs
+- Rooftop dancing- https://www.elsewherebrooklyn.com/rooftop/
+
+Pictures- LABELED FOR REUSE, pexels.com
+
+Group Project Criteria
+Content:
+- Minimum 3 pages
+- Apply a color scheme different from Bootstrap defaults
+Use Bootstrap to give your site:
+- Responsive design using the grid system
+- A responsive (collapsing) navbar
+- A form with buttons
+- One other built-in feature from Bootstrap’s JavaScript plugins (carousel, tabs, drop-down menu, etc)
+Use jQuery to:
+- change something based on user interaction
+- Apply a 3rd party plug-in of your choice
+Use JavaScript/jQuery to:
+- create a feature (game, chatbot, quiz, etc) that uses switch or if/else logic and/or loops to create interactivity
+
+How to Push to Github: https://youtu.be/YSEQe4smezA?t=2m

@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <title>Events</title>
+</head>
+
+<body id="events-body-bg">
+    <!--Back to top button-->
+    <a href="#" class="sf-back-to-top"><span class=""></span>Top</a>
+
+    <!--Navigation-->
+    <div class="nav navbar navbar-expand-md navbar-light fixed-top">
+        <a href="index.html" class="navbar-brand"><img src=images/logo.png height=70px></a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar">
+       <span class="navbar-toggler-icon"></span>
+    </button>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="events.html">CATEGORIES</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="events.html">Theater</a>
+                        <a class="dropdown-item" href="events.html">Sports</a>
+                        <a class="dropdown-item" href="events.html">Beauty</a>
+                        <a class="dropdown-item" href="events.html">Film</a>
+                        <a class="dropdown-item" href="events.html">Dance</a>
+                        <a class="dropdown-item" href="events.html">Music</a>
+                        <a class="dropdown-item" href="events.html">Outdoor</a>
+                    </div>
+                </li>
+
+                <li class="nav-item"><a href="signup.html" class="nav-link">SIGN UP</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--End of Navigation-->
+
+    <!-- Filter Buttons-->
+    <div class="filter-buttons">
+        <button class="btn btn-dark" id="all">All</button>
+        <button class="btn btn-dark" id="theater">Theater</button>
+        <button class="btn btn-dark" id="sports">Sports</button>
+        <button class="btn btn-dark" id="beauty">Beauty</button>
+        <button class="btn btn-dark" id="film">Film</button>
+        <button class="btn btn-dark" id="dance">Dance</button>
+        <button class="btn btn-dark" id="music">Music</button>
+        <button class="btn btn-dark" id="outdoor">Outdoor</button>
+    </div>
+
+    <!--Events-->
+    <div class="container events">
+        <!--Bryant Park movie night-->
+        <div class="card film outdoor">
+            <div class="card-img-top">
+                <img src="https://c1.staticflickr.com/1/21/25573243_7f82c001e8_z.jpg?zz=1" alt="Bryant Park movie night">
+                <p class="img-credit">Photo: <a href="https://www.flickr.com/photos/sethw/25573243" target="_blank">Seth Werkheiser, Flickr</a></p>
+            </div>
+            <div class="card-body bg-light">
+                <div class="card-info">
+                    <h4 class="card-title">Movies at Bryant Park</h4>
+                    <p class="card-text">
+                        Bring a blanket and sit on the Lawn to enjoy great food, friends, and a feature film. Lawn opens 5pm and film begins at sunset.
+                    </p>
+                </div>
+                <div class="card-links">
+                    <table>
+                        <tr>
+                            <td><i class="fas fa-map-marker-alt"></i></td>
+                            <td>Midtown</td>
+                        </tr>
+                        <tr>
+                            <td><i class="far fa-calendar-alt"></i></td>
+                            <td>Movies, Outdoor</td>
+                        </tr>
+                        <tr>
+                            <td><i class="far fa-money-bill-alt"></i></td>
+                            <td>Free</td>
+                        </tr>
+                    </table>
+                    <a class="btn" href="http://bryantpark.org/programs/movie-nights" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Leaving this site">More Info</a>
+                </div>
+            </div>
+        </div>
+        <!--Hudson River Flicks-->
+        <div class="card film outdoor">
+            <div class="card-img-top">
+                <img src="images/hudsonflicks.jpg">
+                <p class="img-credit">Photo: <a href="https://www.flickr.com/photos/r-h/3804289535/in/photolist-6NaYJT" target="_blank">rh, Flickr</a></p>
+            </div>
+            <div class="card-body bg-light">
+                <div class="card-info">
+                    <h4 class="card-title">Hudson River Flicks</h4>
+                    <p class="card-text">
+                        Big Hit Wednesdays at Pier 63 and Family Fridays at Pier 46. Enjoy a free flick and free popcorn. Just bring a blanket.
+                    </p>
+                </div>
+                <div class="card-links">
+                    <table>
+                        <tr>
+                            <td><i class="fas fa-map-marker-alt"></i></td>
+                            <td>Hudson River</td>
+                        </tr>
+                        <tr>
+                            <td><i class="far fa-calendar-alt"></i></td>
+                            <td>Movies, Outdoor</td>
+                        </tr>
+                        <tr>
+                            <td><i class="far fa-money-bill-alt"></i></td>
+                            <td>Free</td>
+                        </tr>
+                    </table>
+                    <a class="btn" href="https://hudsonriverpark.org/events/category/movies" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Leaving this site">More Info</a>
+                </div>
+            </div>
+        </div>
+        <!--Pier 17 Cinema-->
+        <div class="card film outdoor">
+            <div class="card-img-top">
+                <img src="images/pier17.jpg">
+                <p class="img-credit">Photo: <a href="#" target="_blank">Sharona Obillos</a></p>
+            </div>
+            <div class="card-body bg-light">
+                <div class="card-info">
+                    <h4 class="card-title">Pier 17 Cinema Club</h4>
+                    <p class="card-text">
+                        The Rooftop at Pier 17 will host a series of movie screenings starting Wednesday, July 18th. RSVP early as space is limited.
+                    </p>
+                </div>
+                <div class="card-links">
+                    <table>
+                        <tr>
+                            <td><i class="fas fa-map-marker-alt"></i></td>
+                            <td>South Street Seaport</td>
+                        </tr>
+                        <tr>
+                            <td><i class="far fa-calendar-alt"></i></td>
+                            <td>Movies, Outdoor, Rooftop</td>
+                        </tr>
+                        <tr>
+                            <td><i class="far fa-money-bill-alt"></i></td>
+                            <td>Free</td>
+                        </tr>
+                    </table>
+                    <a class="btn" href="https://www.pier17ny.com/whats-on-folder/whats-on/the-rooftop-cinema-club-at-pier-17.html" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Leaving this site">More Info</a>
+                </div>
+            </div>
+        </div>
+        <!--Met Opera Summer HD Festival-->
+        <div class="card theater film outdoor music">
+            <div class="card-img-top">
+                <img src="https://images.pexels.com/photos/377010/pexels-photo-377010.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Met Opera">
+                <p class="img-credit">Photo: <a href="https://www.pexels.com/photo/lincoln-center-opera-377010/" target="_blank">Moshe Cytter, Pexels</a></p>
+            </div>
+            <div class="card-body bg-light">
+                <div class="card-info">
+                    <h4 class="card-title">MET Opera Summer HD Festival</h4>
+                    <p class="card-text">
+                        Metropolitan Opera's 2018 summer HD festival to offer 11 titles in free outdoor screenings.
+                    </p>
+                </div>
+                <div class="card-links">
+                    <table>
+                        <tr>
+                            <td><i class="fas fa-map-marker-alt"></i></td>
+                            <td>Upper West Side</td>
+                        </tr>
+                        <tr>
+                            <td><i class="far fa-calendar-alt"></i></td>
+                            <td>Opera, Film, Outdoor</td>
+                        </tr>
+                        <tr>
+                            <td><i class="far fa-money-bill-alt"></i></td>
+                            <td>Free</td>
+                        </tr>
+                    </table>
+                    <a class="btn" href="https://www.metopera.org/season/summer-2018/summer-hd-festival/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Leaving this site">More Info</a>
+                </div>
+            </div>
+        </div>
+        <!--Public Theater First Previews-->
+        <div class="card theater">
+            <div class="card-img-top">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Public_Theatre.jpg" alt="Public Theater">
+                <p class="img-credit">Photo: <a href="https://commons.wikimedia.org/wiki/File:Public_Theatre.jpg" target="_blank">Wikipedia</a></p>
+            </div>
+            <div class="card-body bg-light">
+                <div class="card-info">
+                    <h4 class="card-title">Free First Previews at the Public Theater</h4>
+                    <p class="card-text">
+                        Continuing The Public Theater’s mission to make theater accessible to all, free tickets will be given out for the first preview performance of shows in The Public’s downtown season at Astor Place.
+                    </p>
+                </div>
+                <div class="card-links">
+                    <table>
+                        <tr>
+                            <td><i class="fas fa-map-marker-alt"></i></td>
+                            <td>East Village</td>
+                        </tr>
+                        <tr>
+                            <td><i class="far fa-calendar-alt"></i></td>
+                            <td>Theater</td>
+                        </tr>
+                        <tr>
+                            <td><i class="far fa-money-bill-alt"></i></td>
+                            <td>Free</td>
+                        </tr>
+                    </table>
+                    <a class="btn" href="https://www.publictheater.org/Ticketing-Info/Free-First-Performances/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Leaving this site">More Info</a>
+                </div>
+            </div>
+        </div>
+        <!--Naumburg Orchestral Concerts-->
+        <div class="card music outdoor">
+            <div class="card-img-top">
+                <img src="images/naumburg.jpg">
+                <p class="img-credit">Photo: <a href="https://www.flickr.com/photos/98119334@N07/9256872546/in/photolist-f6KXzt-bTSLZV-bTSP2H-f716Nm-bEYCmE-f6ZTGN-bTTedk-b5kx3t-b5kwcK-bEYGQq-b8Npda-b5kyBD-bTTwxi-b5kws2-6S8kFF-7SM3Zr-bhK27V-b5kw4g-bhJZJT-bhK1J2-bhK3U2-bhK1VT-eXBAs3-eXBBhW-bhK2v4-bhK3sp-bhK4jn-bhK484-bhK4vc-bhK1xR-bhK3cz-pDfrSf-5MLBu9-f6KJbZ-bhK2FR-5MLA2U-b8No68-do8jbJ-do8EyG-f716Ly-do8nzj/"
+                        target="_blank">HACNY, Flickr</a></p>
+            </div>
+            <div class="card-body bg-light">
+                <div class="card-info">
+                    <h4 class="card-title">Naumburg Orchestral Concerts</h4>
+                    <p class="card-text">
+                        Free performances throughout June and July at the Naumburg band shell in Central Park.
+                    </p>
+                </div>
+                <div class="card-links">
+                    <table>
+                        <tr>
+                            <td><i class="fas fa-map-marker-alt"></i></td>
+                            <td>Central Park</td>
+                        </tr>
+                        <tr>
+                            <td><i class="far fa-calendar-alt"></i></td>
+                            <td>Music, Outdoor</td>
+                        </tr>
+                        <tr>
+                            <td><i class="far fa-money-bill-alt"></i></td>
+                            <td>Free</td>
+                        </tr>
+                    </table>
+                    <a class="btn" href="https://naumburgconcerts.org/concerts/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Leaving this site">More Info</a>
+                </div>
+            </div>
+        </div>
+        <!--Concerts in the Park-->
+        <div class="card music outdoor">
+            <div class="card-img-top">
+                <img src="images/nyphil.png">
+                <p class="img-credit">Photo: <a href="#" target="_blank">Sharona Obillos</a></p>
+            </div>
+            <div class="card-body bg-light">
+                <div class="card-info">
+                    <h4 class="card-title">Concerts in the Parks</h4>
+                    <p class="card-text">
+                        For one week in June, the New York Philharmonic will perform at these iconic city parks for free. Central Park, Prospect Park, Van Cortland Park and Cunningham Park. Just bring a picnic and blanket.
+                    </p>
+                </div>
+                <div class="card-links">
+                    <table>
+                        <tr>
+                            <td><i class="fas fa-map-marker-alt"></i></td>
+                            <td>New York</td>
+                        </tr>
+                        <tr>
+                            <td><i class="far fa-calendar-alt"></i></td>
+                            <td>Music, Outdoor</td>
+                        </tr>
+                        <tr>
+                            <td><i class="far fa-money-bill-alt"></i></td>
+                            <td>Free</td>
+                        </tr>
+                    </table>
+                    <a class="btn" href="https://nyphil.org/parks" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Leaving this site">More Info</a>
+                </div>
+            </div>
+        </div>
+        <!--Jazz at Pier 84-->
+        <div class="card music outdoor">
+            <div class="card-img-top">
+                <img src="images/pier84.jpg">
+                <p class="img-credit">Photo: <a href="https://www.flickr.com/photos/eblake/14770139224/in/photolist-D9bDG-ovbPNQ/" target="_blank">Edward Blake, Flickr</a></p>
+            </div>
+            <div class="card-body bg-light">
+                <div class="card-info">
+                    <h4 class="card-title">Jazz at Pier 84</h4>
+                    <p class="card-text">
+                        Once a month from May to September, enjoy some jazz and blues with beautiful views.
+                    </p>
+                </div>
+                <div class="card-links">
+                    <table>
+                        <tr>
+                            <td><i class="fas fa-map-marker-alt"></i></td>
+                            <td>Hell's Kitchen</td>
+                        </tr>
+                        <tr>
+                            <td><i class="far fa-calendar-alt"></i></td>
+                            <td>Music, Outdoor</td>
+                        </tr>
+                        <tr>
+                            <td><i class="far fa-money-bill-alt"></i></td>
+                            <td>Free</td>
+                        </tr>
+                    </table>
+                    <a class="btn" href="https://hudsonriverpark.org/events/jazz-at-pier-84" data-toggle="tooltip" data-placement="bottom" title="Leaving this site">More Info</a>
+                </div>
+            </div>
+        </div>
+        <!--Sunset on the Hudson-->
+        <div class="card music outdoor dance">
+            <div class="card-img-top">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Christopher_Street_Pier_from_Hudson_02_%289443744624%29.jpg/800px-Christopher_Street_Pier_from_Hudson_02_%289443744624%29.jpg">
+                <p class="img-credit">Photo: <a href="https://commons.wikimedia.org/wiki/File:Christopher_Street_Pier_from_Hudson_02_(9443744624).jpg" target="_blank">Joe Mabel, Wikimedia</a></p>
+            </div>
+            <div class="card-body bg-light">
+                <div class="card-info">
+                    <h4 class="card-title">Sunset on the Hudson</h4>
+                    <p class="card-text">
+                        Free musical entertainment on the waterfront. Some nights, bring you swing dancing shoes.
+                    </p>
+                </div>
+                <div class="card-links">
+                    <table>
+                        <tr>
+                            <td><i class="fas fa-map-marker-alt"></i></td>
+                            <td>Greenwich Village</td>
+                        </tr>
+                        <tr>
+                            <td><i class="far fa-calendar-alt"></i></td>
+                            <td>Music, Outdoor, Dance</td>
+                        </tr>
+                        <tr>
+                            <td><i class="far fa-money-bill-alt"></i></td>
+                            <td>Free</td>
+                        </tr>
+                    </table>
+                    <a class="btn" href="https://naumburgconcerts.org/concerts/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Leaving this site">More Info</a>
+                </div>
+            </div>
+        </div>
+        <!--Sunset Salsa-->
+        <div class="card dance music outdoor">
+            <div class="card-img-top">
+                <img src="images/sunsetsalsa.jpg">
+                <p class="img-credit">Photo: <a href="#" target="_blank">Sharona Obillos</a></p>
+            </div>
+            <div class="card-body bg-light">
+                <div class="card-info">
+                    <h4 class="card-title">Sunset Salsa</h4>
+                    <p class="card-text">
+                        Enjoy the sunset at Pier 45 every Tuesday night for Salsa dancing with some of NYC’s best DJs and with free dance lessons.
+                    </p>
+                </div>
+                <div class="card-links">
+                    <table>
+                        <tr>
+                            <td><i class="fas fa-map-marker-alt"></i></td>
+                            <td>Greenwich Village</td>
+                        </tr>
+                        <tr>
+                            <td><i class="far fa-calendar-alt"></i></td>
+                            <td>Salsa, Live Music, Outdoor</td>
+                        </tr>
+                        <tr>
+                            <td><i class="far fa-money-bill-alt"></i></td>
+                            <td>Free</td>
+                        </tr>
+                    </table>
+                    <a class="btn" href="https://hudsonriverpark.org/events/category/dance" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Leaving this site">More Info</a>
+                </div>
+            </div>
+        </div>
+        <!--Central Park Tango-->
+        <div class="card dance outdoor">
+            <div class="card-img-top">
+                <img src="images/cptango.jpg">
+                <p class="img-credit">Photo: <a href="#" target="_blank">Sharona Obillos</a></p>
+            </div>
+            <div class="card-body bg-light">
+                <div class="card-info">
+                    <h4 class="card-title">Central Park Tango</h4>
+                    <p class="card-text">
+                        FREE Argentine tango with lessons outdoors every summer, with a local & international group of dancers and spectators.
+                    </p>
+                </div>
+                <div class="card-links">
+                    <table>
+                        <tr>
+                            <td><i class="fas fa-map-marker-alt"></i></td>
+                            <td>Central Park</td>
+                        </tr>
+                        <tr>
+                            <td><i class="far fa-calendar-alt"></i></td>
+                            <td>Tango, Outdoor</td>
+                        </tr>
+                        <tr>
+                            <td><i class="far fa-money-bill-alt"></i></td>
+                            <td>Free</td>
+                        </tr>
+                    </table>
+                    <a class="btn" href="https://www.centralpark.com/events/central-park-tango-at-the-shakespeare-statue_1/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Leaving this site">More Info</a>
+                </div>
+            </div>
+        </div>
+        <!--Bryant Park Dance-->
+        <div class="card dance music outdoor">
+            <div class="card-img-top">
+                <img src="images/bryantparkdance.png">
+                <p class="img-credit">Photo: <a href="#" target="_blank">Sharona Obillos</a></p>
+            </div>
+            <div class="card-body bg-light">
+                <div class="card-info">
+                    <h4 class="card-title">Bryant Park Dance</h4>
+                    <p class="card-text">
+                        In the months of May and June, weekly dance parties with superb bands and instruction.
+                    </p>
+                </div>
+                <div class="card-links">
+                    <table>
+                        <tr>
+                            <td><i class="fas fa-map-marker-alt"></i></td>
+                            <td>Bryant Park</td>
+                        </tr>
+                        <tr>
+                            <td><i class="far fa-calendar-alt"></i></td>
+                            <td>Dance, Music, Outdoor</td>
+                        </tr>
+                        <tr>
+                            <td><i class="far fa-money-bill-alt"></i></td>
+                            <td>Free</td>
+                        </tr>
+                    </table>
+                    <a class="btn" href="http://bryantpark.org/programs/dance-party" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Leaving this site">More Info</a>
+                </div>
+            </div>
+        </div>
+        <!--Elswhere Brooklyn Rooftop-->
+        <div class="card music outdoor">
+            <div class="card-img-top">
+                <img src="images/elsewhere.jpg">
+                <p class="img-credit">Photo: <a href="#" target="_blank">Sharona Obillos</a></p>
+            </div>
+            <div class="card-body bg-light">
+                <div class="card-info">
+                    <h4 class="card-title">Elsewhere Rooftop</h4>
+                    <p class="card-text">
+                        Wednesdays & Thursdays NO-COVER nights. Kick back and enjoy the sunset at happy hour with frozen drinks and local DJs in Bushwick's newest outdoor bar & venue.
+                    </p>
+
+                </div>
+                <div class="card-links">
+                    <table>
+                        <tr>
+                            <td><i class="fas fa-map-marker-alt"></i></td>
+                            <td>Bushwick</td>
+                        </tr>
+                        <tr>
+                            <td><i class="far fa-calendar-alt"></i></td>
+                            <td>Live Music, Outdoor, Rooftop</td>
+                        </tr>
+                        <tr>
+                            <td><i class="far fa-money-bill-alt"></i></td>
+                            <td>Free</td>
+                        </tr>
+                    </table>
+                    <a class="btn" href="https://www.elsewherebrooklyn.com/rooftop/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Leaving this site">More Info</a>
+                </div>
+            </div>
+        </div>
+        <!--Swedish Midsummer Festival-->
+        <div class="card music dance outdoor">
+            <div class="card-img-top">
+                <img src="images/swedishmidsummer.jpg">
+                <p class="img-credit">Photo: <a href="#" target="_blank">Sharona Obillos</a></p>
+            </div>
+            <div class="card-body bg-light">
+                <div class="card-info">
+                    <h4 class="card-title">Swedish Midsummer Festival</h4>
+                    <p class="card-text">
+                        Summer solstice marks the longest day of the year and when this festival shows how the the Swedes celebrate this day. A one day event of dancing, music, food and pretty flower wreaths on the heads of all the ladies. 
+                    </p>
+                </div>
+                <div class="card-links">
+                    <table>
+                        <tr>
+                            <td><i class="fas fa-map-marker-alt"></i></td>
+                            <td>Battery Park City</td>
+                        </tr>
+                        <tr>
+                            <td><i class="far fa-calendar-alt"></i></td>
+                            <td>Outdoor, Music, Dance</td>
+                        </tr>
+                        <tr>
+                            <td><i class="far fa-money-bill-alt"></i></td>
+                            <td>Free</td>
+                        </tr>
+                    </table>
+                    <a class="btn" href="https://bpcparks.org/event/swedish-midsummer-festival-2/" data-toggle="tooltip" data-placement="bottom" title="Leaving this site">More Info</a>
+                </div>
+            </div>
+        </div>
+        <!--Citi Summer in the Square-->
+        <div class="card outdoor sports film">
+            <div class="card-img-top">
+                <img src="images/unionsquare.jpg">
+                <p class="img-credit">Photo: <a href="https://www.flickr.com/photos/dandeluca/26174272394/in/photolist-FSVZhw-k4C3V-soqAt-386DNR-4T5emy-7gfpcB-gJ2Wfx-7V8uK1-5SrT3b-4ufoXz-gJ265k-5UrL4x-8zCUxD-9V68Zh-4XRAHo-efenfr-gJAN-9R9amA-hn4NyK-a24QR9-gJBv-4CrMPf-aW7syr-5DMJDF-gJ36FQ-8tqaya-gJ3Q1M-MQz4D-8zG2cQ-oygQRC-djbmuP-gJ2Wa2-4XRBp9-ks3aa-9R7W2j-pTYprS-pCmm3-nnkUVT-8s91j5-8HKoBf-GL4f5u-5is5Gw-4ufk6c-8tqaVZ-8fQg7t-ahkvPZ-aMYVJH-5FSn4Y-5vT7RE-ayfFxo"
+                        target="_blank">Dan DeLuca, Flickr</a></p>
+            </div>
+            <div class="card-body bg-light">
+                <div class="card-info">
+                    <h4 class="card-title">Citi Summer in the Square</h4>
+                    <p class="card-text">
+                        Live performances, fitness classes, movies and many more free events held at Union Square from June to August.
+                    </p>
+                </div>
+                <div class="card-links">
+                    <table>
+                        <tr>
+                            <td><i class="fas fa-map-marker-alt"></i></td>
+                            <td>Flatiron</td>
+                        </tr>
+                        <tr>
+                            <td><i class="far fa-calendar-alt"></i></td>
+                            <td>Outdoor, Live Music, Dance Performances, Fitness, Movies</td>
+                        </tr>
+                        <tr>
+                            <td><i class="far fa-money-bill-alt"></i></td>
+                            <td>Free</td>
+                        </tr>
+                    </table>
+                    <a class="btn" href="http://summerinthesquare.nyc/summerlineup/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Leaving this site">More Info</a>
+                </div>
+            </div>
+        </div>
+        <!--Summer Streets-->
+        <div class="card sports outdoor">
+            <div class="card-img-top">
+                <img src="images/summerstreets.jpg">
+                <p class="img-credit">Photo: <a href="https://www.flickr.com/photos/marianne_oleary/3823195745/in/photostream/" target="_blank">Marianne O'Leary, Flickr</a></p>
+            </div>
+            <div class="card-body bg-light">
+                <div class="card-info">
+                    <h4 class="card-title">Summer Streets</h4>
+                    <p class="card-text">
+                        On three consecutive Saturdays in August, nearly seven miles of NYC's streets are opened for people to play, run, walk and bike.
+                    </p>
+                </div>
+                <div class="card-links">
+                    <table>
+                        <tr>
+                            <td><i class="fas fa-map-marker-alt"></i></td>
+                            <td>Park Avenue</td>
+                        </tr>
+                        <tr>
+                            <td><i class="far fa-calendar-alt"></i></td>
+                            <td>Biking, Running, Outdoor</td>
+                        </tr>
+                        <tr>
+                            <td><i class="far fa-money-bill-alt"></i></td>
+                            <td>Free</td>
+                        </tr>
+                    </table>
+                    <a class="btn" href="http://www.nyc.gov/html/dot/summerstreets/html/about/about.shtml" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Leaving this site">More Info</a>
+                </div>
+            </div>
+        </div>
+        <!--Manhattan Community Boathouse-->
+        <div class="card sports outdoor">
+            <div class="card-img-top">
+                <img src="https://www.maxpixel.net/static/photo/1x/Canoe-Kayak-Summer-Kayaking-Sport-Canoeing-2385203.jpg" alt="Manhattan Community Boathouse">
+                <p class="img-credit">Photo: <a href="https://www.maxpixel.net/Canoe-Kayak-Summer-Kayaking-Sport-Canoeing-2385203" target="_blank">Max Pixel</a></p>
+            </div>
+            <div class="card-body bg-light">
+                <div class="card-info">
+                    <h4 class="card-title">Free Kayaking at Pier 96</h4>
+                    <p class="card-text">
+                        Manhattan Community Boathouse offers free kayaking on first-come, first-served basis.
+                    </p>
+                </div>
+                <div class="card-links">
+                    <table>
+                        <tr>
+                            <td><i class="fas fa-map-marker-alt"></i></td>
+                            <td>Hell's Kitchen</td>
+                        </tr>
+                        <tr>
+                            <td><i class="far fa-calendar-alt"></i></td>
+                            <td>Kayaking, Outdoor</td>
+                        </tr>
+                        <tr>
+                            <td><i class="far fa-money-bill-alt"></i></td>
+                            <td>Free</td>
+                        </tr>
+                    </table>
+                    <a class="btn" href="http://www.manhattancommunityboathouse.org/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Leaving this site">More Info</a>
+                </div>
+            </div>
+        </div>
+        <!--Seaport Fit-->
+        <div class="card sports outdoor">
+            <div class="card-img-top">
+                <img src="images/seaportfit.jpg">
+                <p class="img-credit">Photo: <a href="https://pxhere.com/en/photo/826128" target="_blank">Pxhere</a></p>
+            </div>
+            <div class="card-body bg-light">
+                <div class="card-info">
+                    <h4 class="card-title">Seaport Fit</h4>
+                    <p class="card-text">
+                        Starting in July, Seaport Square at Pier 17 will host FREE fitness classes on Tuesdays and Thursdays curated and led by some of New York’s top fitness experts.
+                    </p>
+                </div>
+                <div class="card-links">
+                    <table>
+                        <tr>
+                            <td><i class="fas fa-map-marker-alt"></i></td>
+                            <td>South Street Seaport</td>
+                        </tr>
+                        <tr>
+                            <td><i class="far fa-calendar-alt"></i></td>
+                            <td>Fitness, Outdoor</td>
+                        </tr>
+                        <tr>
+                            <td><i class="far fa-money-bill-alt"></i></td>
+                            <td>Free</td>
+                        </tr>
+                    </table>
+                    <a class="btn" href="https://www.pier17ny.com/whats-on-folder/whats-on/seaport-fit.html" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Leaving this site">More Info</a>
+                </div>
+            </div>
+        </div>
+        <!--Hudson River Tennis-->
+        <div class="card sports outdoor"> 
+            <div class="card-img-top">
+                <img src="images/hudsontennis.jpg">
+                <p class="img-credit">Photo: <a href="#" target="_blank">Sharona Obillos</a></p>
+            </div>
+            <div class="card-body bg-light">
+                <div class="card-info">
+                    <h4 class="card-title">Hudson River Park Tennis</h4>
+                    <p class="card-text">
+                        These 3 tennis courts are the only free courts in New York City. No permit required. On a first come, first served basis.
+                    </p>
+                </div>
+                <div class="card-links">
+                    <table>
+                        <tr>
+                            <td><i class="fas fa-map-marker-alt"></i></td>
+                            <td>Greenwich Village</td>
+                        </tr>
+                        <tr>
+                            <td><i class="far fa-calendar-alt"></i></td>
+                            <td>Tennis, Outdoor</td>
+                        </tr>
+                        <tr>
+                            <td><i class="far fa-money-bill-alt"></i></td>
+                            <td>Free</td>
+                        </tr>
+                    </table>
+                    <a class="btn" href="https://hudsonriverpark.org/explore-the-park/activities/tennis" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Leaving this site">More Info</a>
+                </div>
+            </div>
+        </div>
+        <!--AVP Gold Series-->
+        <div class="card sports outdoor">
+            <div class="card-img-top">
+                <img src="images/avp.jpg">
+                <p class="img-credit">Photo: <a href="#" target="_blank">Sharona Obillos</a></p>
+            </div>
+            <div class="card-body bg-light">
+                <div class="card-info">
+                    <h4 class="card-title">AVP Gold Series</h4>
+                    <p class="card-text">
+                        Come watch one of the most competitive beach volleyball tournaments held in this picturesque area of downtown NYC. This 3-day event in June is worth putting on the calendar.
+                    </p>
+                </div>
+                <div class="card-links">
+                    <table>
+                        <tr>
+                            <td><i class="fas fa-map-marker-alt"></i></td>
+                            <td>Tribeca</td>
+                        </tr>
+                        <tr>
+                            <td><i class="far fa-calendar-alt"></i></td>
+                            <td>Volleyball, Outdoor</td>
+                        </tr>
+                        <tr>
+                            <td><i class="far fa-money-bill-alt"></i></td>
+                            <td>Free</td>
+                        </tr>
+                    </table>
+                    <a class="btn" href="https://avp.com/event/gold-series-new-york-city-open/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Leaving this site">More Info</a>
+                </div>
+            </div>
+        </div>
+        <!--Bumble and Bumble Model Project-->
+        <div class="card beauty">
+            <div class="card-img-top">
+                <img src="https://c1.staticflickr.com/6/5042/5303842500_849be32e75_b.jpg" alt="Bumble and Bumble">
+                <p class="img-credit">Photo: <a href="https://www.flickr.com/photos/57283318@N07/5303842500" target="_blank">SLM Photography, Flickr</a></p>
+            </div>
+            <div class="card-body bg-light">
+                <div class="card-info">
+                    <h4 class="card-title">Bumble and bumble.University Model Project</h4>
+                    <p class="card-text">
+                        Bb.U students perfect their techniques on you. Services are completely complimentary.
+                    </p>
+                </div>
+                <div class="card-links">
+                    <table>
+                        <tr>
+                            <td><i class="fas fa-map-marker-alt"></i></td>
+                            <td>Meatpacking District</td>
+                        </tr>
+                        <tr>
+                            <td><i class="far fa-calendar-alt"></i></td>
+                            <td>Beauty</td>
+                        </tr>
+                        <tr>
+                            <td><i class="far fa-money-bill-alt"></i></td>
+                            <td>Free</td>
+                        </tr>
+                    </table>
+                    <a class="btn" href="https://www.bumbleandbumble.com/model-project" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Leaving this site">More Info</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Events-->
+
+    <!--Scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    <!--social media shares script-->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b60c17e7b41a25c"></script>
+    <script type="text/javascript" src="js/myScript.js"></script>
+</body>
+
+</html>
