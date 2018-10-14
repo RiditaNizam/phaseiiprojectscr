@@ -1,0 +1,1 @@
+This is a website created for an assignment in the New York Public Library Project Code Phase II: JavaScript, jQuery and Bootstrap course.  It contains information about free activities in New York City.
